@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b8c8df60a0fa4528802e526446e2f07c" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Appointment" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Doctor" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Medical_Aid" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MedicalHistory" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Patient" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Prescription" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK__Appointme__docto__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Appointme__patie__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__MedicalHi__appoi__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Prescript__appoi__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Medical_A__patie__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__MedicalHi__patie__6FE99F9F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
